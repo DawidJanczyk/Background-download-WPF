@@ -81,5 +81,19 @@ namespace Backgrounds_app
             client.DownloadFile("https://wallpapermemory.com/uploads/666/london-background-hd-4k-484784.jpg", @"C:/Pobrane/london.jpg");
             Process.Start("C:/Pobrane/london.jpg");
         }
+        
+        private void ButtonCategories_Click(object sender, RoutedEventArgs e)
+        {
+            Categories use = new Categories();
+            use.Show();
+            this.Close();
+        }
+
+        private void ButtonHome_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow use = new MainWindow();
+            use.Show();
+            this.Close();
+        }
     }
 }
