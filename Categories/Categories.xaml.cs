@@ -42,5 +42,33 @@ namespace Backgrounds_app
             use.Show();
             this.Close();
         }
+        private void ButtonSport_Click(object sender, RoutedEventArgs e)
+        {
+            Sport use = new Sport();
+            use.Show();
+            this.Close();
+        }
+
+        private void ButtonNature_Click(object sender, RoutedEventArgs e)
+        { 
+             Nature use = new Nature();
+             use.Show();
+             this.Close();
+          
+        }
+
+        private void ButtonCartoon_Click(object sender, RoutedEventArgs e)
+        {
+            Cartoon use = new Cartoon();
+            use.Show();
+            this.Close();
+        }
+
+        private void ButtonGraphic_Click(object sender, RoutedEventArgs e)
+        {
+            Graphic use = new Graphic();
+            use.Show();
+            this.Close();
+        }
     }
 }
